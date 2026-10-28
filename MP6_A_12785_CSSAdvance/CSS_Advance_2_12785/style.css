@@ -1,0 +1,79 @@
+body{
+    background-color: #f5e9eb;
+    margin: 0;
+    padding: 20px;
+    font-family: Cambria, Georgia, serif;
+    color: #333333;
+}
+
+.gambar{
+    background-color: white;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 2px 5px #cbb7ba;
+}
+
+.judul{
+    text-align: center;
+    background-color: #800000;
+    color: white;
+    padding: 20px;
+    margin: -20px -20px 15px -20px;
+}
+
+.pengantar{
+    margin-bottom: 25px;
+}
+
+h2{
+    color: #800000;
+    border-bottom: 2px solid #d8b5bb;
+    padding-bottom: 5px;
+}
+
+.tabel{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.tabel td{
+    border: 1px solid #d8c2c5;
+    padding: 10px;
+}
+
+.kolom{
+    background-color: #f0dfe2;
+    width: 32%;
+}
+
+input[type="text"],
+select,
+textarea{
+    padding: 6px;
+    max-width: 95%;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin: 5px;
+}
+
+.tombol{
+    text-align: center;
+    background-color: #f8eff0;
+}
+
+input[type="submit"]{
+    background-color: #800000;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #590000;
+}

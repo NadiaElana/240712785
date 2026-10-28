@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(225, 248, 255);
+    margin: 0;
+    padding: 20px;
+    font-family: Cambria, Georgia,  serif;
+    color: black;
+}
+
+.gambar{
+    background-color: white;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 2px 5px grey;
+}
+
+.h1{
+    text-align: center;
+    background-color: #00a6d6;
+    color: white;
+    padding: 20px;
+    margin: -20px -20px 15px -20px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td{
+    border: 1px solid #b5d9e3;
+    padding: 10px;
+}
+
+td:first-child{
+    background-color: #d9f0f7;
+    width: 30%;
+}
+
+.atas{
+    vertical-align: top;
+}
+
+input[type="text"], 
+input[type="password"], 
+select,
+textarea{
+    padding: 6px;
+    max-width: 95%;
+}
+
+.tombol{
+    text-align: center;
+    background-color: #eaf8fc;
+}
+
+input[type="sumbit"]{
+    background-color: #008fbd;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background-color: #005f80;
+}
