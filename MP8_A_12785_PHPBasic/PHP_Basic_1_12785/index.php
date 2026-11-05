@@ -1,0 +1,17 @@
+<?php
+    echo "<h1>Hobi</h1>";
+    echo '<form method="POST" action="">
+            <p>Nama : <br /><input type="text" name="nama" /><p>
+            <p>NPM  : <br /><input type="text" name="npm" /></p>
+            <p>Hobi : <br /><inputntype="text" name="hobi" /><p>
+        </form>';
+
+    if($_SERVER['REQUEST_METHOD'] === 'POST'){
+        $nama = $_POST['nama'];
+        $npm = $_POST['npm'];
+        $hobi = $_POST['hobi'];
+        echo "Hobi " . htmlspecialchars($nama) . " / " . htmlspecialchars($npm) . " adalah " . htmlspecialchars($hobi);
+    }else{
+        echo "Silahkan isi formulir di atas untuk mengirimkan data hobi Anda.";
+    }
+?>   
